@@ -59,5 +59,5 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@KosyAbone](https://www.frontendmentor.io/profile/KosyAbone)
 - Twitter - [@kosiso_harriet](https://www.twitter.com/kosiso_harriet)
-- LinkedIn - [kosiso-abone](https://linkedin.com/in/kosiso-abone)
+- LinkedIn - [@kosiso-abone](https://linkedin.com/in/kosiso-abone)
 
