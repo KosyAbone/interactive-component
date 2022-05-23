@@ -21,5 +21,5 @@ submit.addEventListener("click", () =>{
     setTimeout(() => {
         ratingCont.style.display = "block";
         thanksCont.style.display = "none";
-    }, 3000)
+    }, 5000)
 })
