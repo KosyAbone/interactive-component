@@ -2,7 +2,7 @@ const numbers = document.querySelector('#btn-container')
 const rating = document.querySelector('#rating');
 const ratingCont = document.getElementById('container1');
 const thanksCont = document.getElementById('container2')
-const submit = document.querySelector('#submit')
+const submit = document.getElementById('submit')
 let clicked = false;
 
 numbers.addEventListener("click", e => {
@@ -21,5 +21,6 @@ submit.addEventListener("click", () =>{
     setTimeout(() => {
         ratingCont.style.display = "block";
         thanksCont.style.display = "none";
+        submit.style.backgroundColor = 'hsl(25, 97%, 53%)';
     }, 5000)
 })
