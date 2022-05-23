@@ -83,6 +83,7 @@ p{
     color: var(--light-grey);
     background-color: var(--light-blue);
     border: none;
+    font-size: 1.2rem;
 }
 .number:hover{
     cursor: pointer;
@@ -141,7 +142,7 @@ p{
     font-weight: 600;
     background-color: var(--light-blue);
     color: var(--orange);
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.3rem;
     border-radius: 40px;
-    margin: 2rem 4rem;
+    margin: 2rem 3rem;
 }
