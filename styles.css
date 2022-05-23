@@ -20,6 +20,7 @@
 
 
 body{
+    position: relative;
     background-color: var(--deep-blue);
     color: var(--white);
     font-family: var(--font);
@@ -28,21 +29,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 h1{
     font-weight: var(--font-weight-bold);
-    font-size: 1.8rem;
+    font-size: 1.45rem;
 }
 p{
     color: var(--light-grey);
     line-height: 1.3rem;
-    font-size:0.95rem;
+    font-size:0.85rem;
     font-weight: var(--font-weight-light);
 }
 
 #container1{
-    padding: 2.5rem 1.7rem;
-    width: 70vw;
+    position: fixed;
+    padding: 1.5rem 1.7rem;
+    width: 80vw;
     max-width: 400px;
     min-width: 350px;
     background-color: var(--dark-blue);
@@ -50,6 +53,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 #container1 > *{
@@ -58,8 +62,8 @@ p{
 }
 #circle{
     background-color: var(--light-blue);
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     position: relative;
     margin-bottom: 20px;
@@ -67,13 +71,14 @@ p{
 
 #star-img{
     position: absolute;
-    top: 35%;
-    left: 35%;
+    top: 32%;
+    left: 32%;
 }
 #btn-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1.8rem;
 }
 
 .number{
@@ -83,7 +88,7 @@ p{
     color: var(--light-grey);
     background-color: var(--light-blue);
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
 }
 .number:hover{
     cursor: pointer;
@@ -114,8 +119,9 @@ p{
 }
 
 #container2{
-    padding: 2.5rem 1.7rem;
-    width: 70vw;
+    position: fixed;
+    padding: 1.5rem 1.7rem;
+    width: 80vw;
     max-width: 400px;
     min-width: 350px;
     background-color: var(--dark-blue);
@@ -135,14 +141,23 @@ p{
 #container2 > *{
     text-align: center;
     margin-top: 0.2rem;
-    padding: 0.4rem 0.6rem;
+    padding: 0.2rem 0.6rem;
 }
 
 #rating-box{
     font-weight: 600;
     background-color: var(--light-blue);
     color: var(--orange);
-    padding: 0.5rem 0.3rem;
+    padding: 0.5rem 0.2rem;
     border-radius: 40px;
-    margin: 2rem 3rem;
+    margin: 1.8rem 3.7rem;
+}
+#container2 > h1{
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 400px) {
+    body{
+        background-color: antiquewhite;
+    }
 }
