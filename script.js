@@ -18,4 +18,8 @@ submit.addEventListener("click", () =>{
         ratingCont.style.display = "none";
         thanksCont.style.display = "block";
     }
+    setTimeout(() => {
+        ratingCont.style.display = "block";
+        thanksCont.style.display = "none";
+    }, 3000)
 })

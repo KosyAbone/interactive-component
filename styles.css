@@ -101,6 +101,7 @@ p{
 }
 
 #submit{
+    width: 100%;
     color: var(--white);
     font-size: 1rem;
     margin-top: 12px;
@@ -154,10 +155,4 @@ p{
 }
 #container2 > h1{
     margin-bottom: 1rem;
-}
-
-@media only screen and (max-width: 400px) {
-    body{
-        background-color: antiquewhite;
-    }
 }
