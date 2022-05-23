@@ -43,7 +43,7 @@ p{
 
 #container1{
     position: fixed;
-    padding: 1.5rem 1.7rem;
+    padding: 1.5rem 1.2rem;
     width: 80vw;
     max-width: 400px;
     min-width: 350px;
@@ -120,7 +120,7 @@ p{
 
 #container2{
     position: fixed;
-    padding: 1.5rem 1.7rem;
+    padding: 1.5rem 1.8rem;
     width: 80vw;
     max-width: 400px;
     min-width: 350px;
