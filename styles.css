@@ -25,7 +25,7 @@ body{
     color: var(--white);
     font-family: var(--font);
     font-size: var(--font-size);
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,4 +154,10 @@ p{
 }
 #container2 > h1{
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        height: 80vh;
+    }
 }
