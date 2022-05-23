@@ -21,6 +21,5 @@ submit.addEventListener("click", () =>{
     setTimeout(() => {
         ratingCont.style.display = "block";
         thanksCont.style.display = "none";
-        submit.style.backgroundColor = 'hsl(25, 97%, 53%)';
     }, 5000)
 })

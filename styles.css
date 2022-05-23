@@ -111,11 +111,13 @@ p{
     font-weight: var(--font-weight-bold);
 }
 
-#submit:hover{
-    cursor: pointer;
-    font-weight: var(--font-weight-bold);
-    background-color: var(--white);
-    color: var(--orange);
+@media screen and (min-width: 400px){
+    #submit:hover{
+        cursor: pointer;
+        font-weight: var(--font-weight-bold);
+        background-color: var(--white);
+        color: var(--orange);
+    }
 }
 
 #container2{
