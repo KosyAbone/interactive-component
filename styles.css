@@ -29,7 +29,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* overflow: hidden; */
 }
 h1{
     font-weight: var(--font-weight-bold);
