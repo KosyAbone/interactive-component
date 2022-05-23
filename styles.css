@@ -19,7 +19,7 @@
 }
 
 
-body{
+main{
     position: relative;
     background-color: var(--deep-blue);
     color: var(--white);
