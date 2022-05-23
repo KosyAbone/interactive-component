@@ -148,7 +148,7 @@ p{
     font-weight: 600;
     background-color: var(--light-blue);
     color: var(--orange);
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.3rem;
     border-radius: 25px;
     margin: 1.8rem 4rem;
 }
@@ -158,6 +158,6 @@ p{
 
 @media screen and (max-width: 400px){
     body{
-        height: 80vh;
+        height: 85vh;
     }
 }
