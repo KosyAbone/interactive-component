@@ -35,7 +35,7 @@ h1{
     font-size: 1.45rem;
 }
 p{
-    /* color: var(--light-grey); */
+    color: var(--light-grey);
     line-height: 1.3rem;
     font-size:0.85rem;
     font-weight: var(--font-weight-light);
